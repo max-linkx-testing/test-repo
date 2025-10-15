@@ -1,0 +1,8 @@
+# .pre-commit-config.yaml
+repos:
+  - repo: https://github.com/hashicorp/copywrite
+    # Use a released tag from the copywrite repo.
+    # As of now, v0.22.0 is the latest.
+    rev: v0.22.0
+    hooks:
+      - id: copywrite-headers
