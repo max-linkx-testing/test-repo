@@ -5,4 +5,4 @@ repos:
     # As of now, v0.22.0 is the latest.
     rev: v0.22.0
     hooks:
-      - id: copywrite-headers
+      - id: add-headers
